@@ -1,0 +1,480 @@
+
+
+CLIENT-READY MASTER BRIEF
+Advanced Auto Spa
+SEO, UX, Accessibility & Website Redesign
+Current-state analysis, competitive positioning, mockup rationale, Google Business integration, and AI implementation instructions
+
+Current recommended design direction: “Precision Studio,” using real Advanced Auto Spa photography.
+The issue in one sentence
+Advanced Auto Spa has a stronger reputation than its current website communicates; the main problem is inconsistent local signals, duplicate and repetitive site structure, weak conversion organization, and a digital experience that does not yet feel as premium or trustworthy as the actual business.
+
+Contents
+1. Executive Summary
+2. Confirmed Current-State Findings
+3. SEO Analysis and Priority Issues
+4. UX and Conversion Analysis
+5. Accessibility Analysis
+6. Competitor Analysis
+7. Redesign Strategy and Current Mockup
+8. Recommended Site Architecture
+9. Google Business Profile Integration
+10. Implementation Roadmap
+11. AI Website Build Instructions
+12. Launch Acceptance Criteria
+13. Business Data Verification Checklist
+14. Source Notes and Audit Limitations
+1. Executive Summary
+The redesign should be presented as an elevation, not a rejection of the existing brand. The current site already contains valuable ingredients: real work, an owner-operated story, public service information, a current Manalapan address, strong visual content, and a substantial Google reputation. The opportunity is to organize those assets into a clearer local-search and booking system.
+What is working
+The site clearly identifies auto detailing in Manalapan and promotes hand wash, detailing, ceramic coating, paint correction, and related services.
+The business story is differentiated: owner-operated, purpose-built studio, professional lighting, and personal involvement in each vehicle.
+Real photography and public pricing provide stronger trust than many generic local-detailing websites.
+The review reputation is a major competitive advantage and should be the strongest conversion asset on the site.
+What is holding the site back
+Old Matawan information is still visible on third-party sources while the current site uses Manalapan.
+Review counts, years-in-business language, and some public facts are not presented consistently across the digital ecosystem.
+Duplicate and legacy service URLs divide clarity and can dilute search signals.
+Wix service templates repeat price and duration information and rely on generic links.
+The homepage and detailing hub overlap in keyword intent instead of having distinct jobs.
+The gallery and video sections contain substantial proof but are not organized as fast, searchable case studies.
+The contact and booking journey does not qualify leads or guide different customer types effectively.
+Accessibility issues weaken image understanding, link clarity, form usability, and keyboard/screen-reader confidence.
+Strategic conclusion
+Do not lead with dozens of new blog posts. First correct entity consistency, consolidate URLs, standardize business data, rebuild the main page templates, improve accessibility, and connect the website to measurable Google Business Profile actions.
+2. Confirmed Current-State Findings
+Public-facing findings verified from the current website and discoverable listings on August 20, 2026.
+Finding
+Current State
+Required Response
+Current website location
+221 Park Avenue, Manalapan, NJ 07726
+Correct on the website; make this the master location record.
+Current website phone
+(732) 441-1400
+Consistent across the main site and several listings.
+Website hours
+Mon–Sat 9:00 AM–5:00 PM; Sun 9:00 AM–2:00 PM
+These differ from the current concept mockup and must be verified before launch.
+Review count
+Homepage says 700+; detailing/gallery/video pages say 750+
+Choose one verified live count and centralize it.
+Business timeline
+Website says since 2009 and 25+ years of experience; social listings also use 19 years in business
+Separate founding year from professional experience.
+Old location signals
+BBB and other directories still expose 747 State Route 34, Matawan
+Complete citation cleanup and location-transition messaging.
+Duplicate windshield URLs
+/service-page/windshield-repair and /service-page/windshield-rock-chip-repair
+Select one canonical URL and permanently redirect the other.
+Legacy maintenance URL
+/service-page/hand-wash displays Maintenance Detail content and overlaps /service-page/maintenance-detail
+Redirect legacy path and update sitemap/internal links.
+Service template duplication
+Prices and durations appear twice on multiple service pages
+Fix at template/semantic level.
+Gallery scale
+The public gallery exposes hundreds of image entries
+Curate initial load and create categories/case studies.
+Video crawlability
+Video page exposes a heading and review statement but little supporting text
+Add titles, summaries, captions, transcripts, and service links.
+Contact form
+Homepage visibly exposes only name and email fields
+Add vehicle and service qualification fields.
+3. SEO Analysis and Priority Issues
+Priority matrix
+Priority
+Issue
+Action
+P0 — Immediate
+Local entity consistency
+Correct old Matawan citations; synchronize name, address, phone, hours, and categories.
+P0 — Immediate
+Duplicate URL consolidation
+301/canonical plan for windshield and maintenance-detail duplicates; remove noncanonical URLs from sitemap.
+P1 — High
+Business-data consistency
+Standardize review count, founding year, experience claim, hours, prices, and service names.
+P1 — High
+Template cleanup
+Remove repeated prices/durations and replace generic links with descriptive service actions.
+P1 — High
+Page intent separation
+Give homepage, detailing hub, and service pages distinct keyword and conversion roles.
+P1 — High
+Conversion architecture
+Build Maintain/Restore/Protect pathways, stronger forms, review proof, and consultation paths.
+P1 — High
+Accessibility remediation
+Correct alt text, link labels, focus, forms, keyboard behavior, contrast, and video alternatives.
+P2 — Growth
+Gallery/video content
+Convert media into curated case studies and searchable project content.
+P2 — Growth
+Structured data and tracking
+LocalBusiness, Organization, Service, Breadcrumb, VideoObject, UTMs, and conversion events.
+P3 — Expansion
+Service-area and educational content
+Publish only after the foundation is clean and measurable.
+Local SEO and entity consistency
+Google local visibility is primarily shaped by relevance, distance, and prominence. Advanced Auto Spa cannot control the searcher’s distance, but it can strengthen relevance and prominence by presenting one consistent business entity across the website, Google Business Profile, maps, social profiles, and major data sources.
+Create one master business record and use it everywhere.
+Correct or suppress the former Matawan address on BBB, directory, map, and data-aggregator listings.
+Publish a temporary “Now Located in Manalapan” page if relocation confusion is still affecting customers.
+Use a dedicated Contact & Location page with written directions, parking/drop-off instructions, map, storefront photo, and current hours.
+Keep the Google Business Profile name limited to the real-world business name; do not append keywords unless they are genuinely part of signage and branding.
+Duplicate URLs and indexation
+Choose one preferred windshield rock-chip repair URL and permanently redirect the duplicate.
+Redirect the legacy `/service-page/hand-wash` Maintenance Detail URL to the correct Maintenance Detail page.
+Review booking-calendar URLs. They should function as transactional steps, not compete with full service pages in search.
+Use self-referencing canonicals on preferred pages, update all internal links, and keep only canonical indexable URLs in the XML sitemap.
+Before changing any URL beyond confirmed duplicates, check Google Search Console history and create a redirect matrix.
+Page intent and keyword architecture
+Page
+Primary Job
+Homepage
+Premium auto detailing, paint correction, ceramic protection, and local brand trust in Manalapan
+/detailing
+Service selection, package comparison, pricing, and booking
+/hand-wash
+Premium hand car wash packages and availability
+Ceramic Coating
+Protection consultation, packages, process, longevity, preparation, care
+Paint Correction
+Swirl/scratch correction, levels of correction, inspection, expected outcome
+Interior Detail
+Deep cleaning, stains, pet hair, odor, condition-based pricing
+Results / Case Studies
+Vehicle-specific proof and service outcomes
+Contact / Location
+Directions, hours, parking, lead form, local entity reinforcement
+Structured data
+Add verified LocalBusiness and Organization JSON-LD using the same NAP and hours shown to users.
+Use BreadcrumbList on service and case-study pages.
+Use Service markup only when it accurately reflects visible service content.
+Use VideoObject for videos with titles, summaries, thumbnails, and transcripts.
+Do not add misleading self-serving aggregate-rating markup to pursue review stars.
+Validate with Google’s Rich Results Test and Search Console URL Inspection.
+Performance and measurement
+A public crawl does not provide a reliable Core Web Vitals score or conversion rate. Confirm performance in PageSpeed Insights, Chrome UX Report where available, Google Search Console, and real analytics. Test the homepage, detailing hub, hand-wash page, ceramic-coating page, gallery, video page, and booking flow separately.
+Optimize the hero image/video for Largest Contentful Paint.
+Use responsive WebP/AVIF images with explicit dimensions.
+Load a curated gallery first and defer the remaining media.
+Defer video embeds and use poster images.
+Track calls, directions, booking starts, booking completions, quote submissions, and review actions.
+4. UX and Conversion Analysis
+Primary UX problem
+Visitors are currently asked to interpret a long list of services and repeated booking templates. The redesign should first ask what outcome the customer needs, then guide that user to a specific service, proof, price expectation, and action.
+Three customer pathways
+Path
+Customer Need
+Recommended Services
+Maintain
+Vehicle is already in good condition
+Hand Wash, Maintenance Detail, Exterior Detail
+Restore
+Stains, pet hair, odor, scratches, neglect, lost gloss
+Interior Detail, Full Detail, Odor Elimination, Paint Correction
+Protect
+Long-term gloss, easier maintenance, ownership value
+Ceramic Coating, Glass/Trim/Interior Coating, Window Tinting
+Conversion improvements
+Use one dominant hero action: Book a Detail, supported by Request an Assessment.
+Add persistent mobile actions for Call, Book, and Directions.
+Show relevant price, duration, best-for, and outcome on service cards before the click.
+Use “Request an Assessment” for variable high-ticket work rather than forcing every user into a generic booking flow.
+Place service-specific reviews and before/after evidence beside the relevant decision.
+Expand the contact form to include phone, vehicle year/make/model, service, condition, date, message, and optional photos.
+Create dedicated About and Contact/Location pages rather than relying only on homepage anchors.
+Use a branded email address publicly if approved.
+Service-page conversion template
+Breadcrumb and unique local H1
+Concise outcome statement
+Starting price or pricing factors
+Typical duration
+Who the service is for
+What is included
+What changes the price or is not included
+Process and expectations
+Before-and-after proof
+Service-specific reviews
+Frequently asked questions
+Related services
+Book or Request Assessment CTA
+Location and directions reinforcement
+5. Accessibility Analysis
+Scope note
+This is a preliminary public-content review, not a legal certification. Full WCAG conformance requires manual keyboard, screen-reader, zoom, reflow, contrast, form, booking, gallery, and mobile testing.
+Confirmed or strongly indicated issues
+Many gallery images expose only generic “Image” labels, while other pages use irrelevant stock-style descriptions such as “Foggy Pier.”
+Some service images repeat unrelated “Gold Package Hand Wash Manalapan NJ” alternative text on Maintenance Detail and Windshield Repair pages.
+Generic “Read More,” “Book It,” and “Book Now” links are ambiguous when read outside their visual context.
+Duplicate price and duration fields can be announced twice by assistive technology.
+The video page lacks meaningful crawlable summaries, captions, and transcripts.
+WCAG 2.2 AA requirements for the rebuild
+Semantic landmarks, logical headings, and a skip-to-content link.
+Keyboard-accessible navigation, filters, before/after controls, gallery, lightbox, forms, and booking.
+Visible focus states and focus order that preserves meaning.
+Accurate alt text for meaningful images and empty alt for decorative images.
+Text and control contrast that meets WCAG requirements.
+Labels that remain visible, clear instructions, error summaries, and accessible confirmation states.
+Captions and transcripts for video.
+Responsive reflow and 200% zoom without loss of content or functionality.
+Reduced-motion support and no scroll-jacking.
+No accessibility overlay used as a substitute for accessible design and code.
+6. Competitor Analysis
+Competitor
+What It Does Well
+Advanced Auto Spa Response
+Top Tier Auto Spa
+Direct shop-based Manalapan competitor; clear call/contact paths; licensed and insured language; broader protection services
+Advanced Auto Spa can win with stronger review proof, owner story, real-work presentation, and clearer pricing.
+CC Cleaning & Detailing
+Strong conversion structure, mobile convenience, packages, memberships, service-area pages, FAQs, before/after proof
+Borrow its clarity and customer guidance, not its mobile positioning.
+Zulu Mobile Detailing
+Convenience-led message, strong booking CTA, detailed lead form, vehicle qualification fields
+Match its online convenience while positioning the controlled studio as the premium advantage.
+Competitive position to own
+Advanced Auto Spa should not compete as the cheapest or most convenient mobile detailer. It should own the position of the most trusted, personally accountable, studio-based detailing specialist: controlled lighting, professional environment, owner involvement, transparent service selection, and a proven local reputation.
+7. Redesign Strategy and Current Mockup
+Recommended direction: Precision Studio
+The current mockup translates the business into a premium black, white, and red design system. It uses real Advanced Auto Spa photography, a cinematic hero, trust proof above the fold, intent-based service selection, clean pricing cards, and mobile actions that support local conversion.
+
+Current desktop and mobile homepage concept using real imagery from the existing Advanced Auto Spa website.
+What the mockup solves
+Immediately communicates a premium automotive studio rather than a generic car wash.
+Places the primary services and local positioning in the hero.
+Makes review authority visible before the user scrolls.
+Separates Maintain, Restore, and Protect customer needs.
+Uses real business photography instead of generic stock cars.
+Creates clear Book, Assessment, Call, and Directions actions.
+Provides a strong mobile conversion bar.
+What is not final in the mockup
+Element
+Mockup
+Before Publishing
+Business hours
+Mockup shows Mon–Fri 8–6 and Sat 8–4
+Website currently shows Mon–Sat 9–5 and Sun 9–2. Verify final hours.
+Review count
+Mockup uses 750+
+Homepage says 700+ while other pages say 750+. Verify live count.
+Hand-wash price
+Mockup uses “From $49.95”
+Current hand-wash page starts at $59.95 exterior-only and $79.95 full-service. Verify desired presentation.
+Paint-correction price
+Mockup uses “From $499.95”
+Current detailing page says starting at $279.95. Verify scope and correct price.
+Ceramic-coating price
+Mockup uses “From $699.95”
+Current website says Call For Price. Confirm whether to show a range or Assessment Required.
+Hero/support copy
+Concept copy
+Finalize after client approves tone and verified claims.
+Client presentation language
+We are not changing what Advanced Auto Spa is. We are making its reputation, craftsmanship, and facility look as premium online as they do in person.
+8. Recommended Site Architecture
+Route
+Page
+Primary Purpose
+/
+Homepage
+Broad local brand and conversion intent
+/detailing
+Services hub
+Package comparison and service selection; preserve existing authority
+/hand-wash
+Hand Wash
+Wash packages, pricing, maintenance guidance
+Preferred service URL
+Full Detail
+Complete interior/exterior restoration
+Preferred service URL
+Interior Detail
+Stains, pet hair, deep cleaning
+Preferred service URL
+Exterior Detail
+Decontamination, gloss, wax/sealant
+Preferred service URL
+Maintenance Detail
+Returning-client upkeep; consolidate legacy URL
+Preferred service URL
+Ceramic Coating
+Consultation, packages, process, care
+Preferred service URL
+Paint Correction
+Defect reduction, correction levels, assessment
+Preferred service URL
+Odor Elimination
+Smoke, pet, and persistent odor treatment
+Preferred service URL
+Window Tinting
+Verified tint offerings and benefits
+Preferred service URL
+Engine Detailing
+Engine-bay cleaning and finish
+Preferred service URL
+Headlight Restoration
+Clarity and protection
+One preferred URL
+Windshield Rock Chip Repair
+Consolidate duplicate paths
+/results
+Results / Case Studies
+Curated real work and before/after proof
+/reviews
+Reviews
+Current reputation and service-specific proof
+/about
+About
+Owner, timeline, studio, equipment, standards
+/contact
+Contact & Location
+NAP, hours, map, directions, parking, form
+/videos
+Video Library
+Captioned, summarized, service-linked media
+/gift-cards
+Gift Cards
+Purchase intent and tracked conversion
+Final service URLs should be selected after reviewing Google Search Console. Preserve valuable existing URLs when practical; use permanent redirects only with a documented migration map.
+9. Google Business Profile Integration
+One source of truth
+Use one verified business name, address, phone, hours, founding date, review claim, service list, and booking destination.
+Make the website business-data object the internal master record and synchronize profile updates from it.
+Keep the current Manalapan address visible in text, structured data, footer, contact page, map, and directions links.
+Website-to-GBP mapping
+GBP Action
+Website Destination
+Goal
+GBP website
+Homepage
+Tracked broad local visit
+GBP booking
+Services/booking destination
+Track booking starts and completions
+Ceramic coating post
+Ceramic Coating page or case study
+High-intent consultation
+Interior result post
+Interior Detail page/case study
+Service-specific proof
+Paint correction video
+Paint Correction page
+Education and assessment
+Studio tour
+About or Contact/Location
+Physical-location confidence
+Hand-wash availability
+Hand Wash page
+Direct booking
+Seasonal protection
+Relevant article/service page
+Educational conversion
+Tracking
+Use separate UTM campaigns for GBP website, GBP booking, and GBP posts.
+Capture source/medium/campaign through lead and booking flows where possible.
+Measure calls, directions, booking starts, booking completions, quote submissions, review clicks, and gift-card purchases.
+Send new GBP content to specific service or case-study pages rather than always sending users to the homepage.
+Reviews and photos
+Use the official Google review link in post-service texts, emails, receipts, QR codes, and the confirmation page.
+Request reviews from all genuine completed customers without incentives or rating pressure.
+Display curated service-specific review excerpts on the website and link users back to Google.
+Maintain a photo program covering storefront, entrance, parking, owner/team, studio, processes, before/after results, and finished vehicles.
+10. Implementation Roadmap
+Timing
+Phase
+Deliverables
+Days 1–14
+Foundation
+Verify business data; correct major citations; consolidate duplicate URLs; clean sitemap/canonicals; standardize claims; fix repeated price/duration fields; configure analytics and GBP UTMs.
+Days 15–45
+Core redesign
+Approve visual system; build homepage; services hub; ceramic, paint correction, interior detail; About; Contact/Location; forms; mobile actions; accessibility components; structured data.
+Days 46–90
+Growth and proof
+Curated gallery; case studies; video summaries/transcripts; review workflow; service-area pages where justified; high-intent educational content; local link development; performance and conversion iteration.
+Picky-client approval process
+1. Approve visual direction first: color, type, buttons, photography, spacing.
+2. Approve desktop and mobile hero plus trust strip before full-page design.
+3. Approve reusable components: service card, review card, transformation module, form, map, CTA.
+4. Approve one complete homepage.
+5. Approve one complete service template before adapting all services.
+6. Maintain a written decision log so approved choices are not repeatedly reopened.
+11. AI Website Build Instructions
+A standalone Markdown prompt is included with this package for direct upload or copy/paste into Claude Design or another AI website builder. The prompt instructs the AI to use the current mockup as the visual reference, use real Advanced Auto Spa photography, preserve SEO value, build accessible interactions, create the full page system, and flag all unverified data rather than inventing it.
+Essential AI inputs
+Attach `advanced_auto_spa_mockup_with_real_site_photos.png` as the primary visual reference.
+Attach the Advanced Auto Spa logo in the highest available resolution.
+Attach selected real photography from the current site and any newer studio/content shoot.
+Attach the Markdown file `Advanced_Auto_Spa_AI_Website_Build_Prompt.md`.
+Provide a verified business-data sheet before final publishing.
+Non-negotiable AI direction
+Match the black, white, and red Precision Studio visual system.
+Do not redesign into a neon tuner, racing, dealership, or generic car-wash aesthetic.
+Use no lorem ipsum and no fabricated business facts.
+Create functioning desktop and mobile navigation, service pathways, forms, gallery interactions, and sticky mobile actions.
+Build accessibility into the components and content.
+Create SEO metadata, schema placeholders, canonical/redirect notes, and measurement hooks.
+Use centralized data tokens for hours, review count, prices, and links.
+12. Launch Acceptance Criteria
+Category
+Pass Condition
+Visual
+Matches the approved mockup, uses real photography, and remains consistent across all pages.
+Content
+No placeholder facts remain; claims, hours, prices, reviews, and timeline are verified.
+SEO
+Unique page intent, metadata, canonicals, clean sitemap, redirects, internal links, and validated schema.
+Local
+Website and Google Business Profile NAP/hours/services match; old address cleanup is substantially complete.
+UX
+Maintain/Restore/Protect paths work; fixed-price services book easily; high-ticket services request assessment.
+Accessibility
+Keyboard, focus, contrast, forms, images, video, reflow, and reduced motion pass WCAG 2.2 AA review.
+Performance
+Mobile templates meet agreed PageSpeed/Core Web Vitals targets without sacrificing essential content.
+Analytics
+Call, directions, booking, quote, review, email, and gift-card events are verified in analytics.
+Migration
+Redirects, canonicals, sitemap, robots, Search Console, and GBP links are checked on launch day.
+13. Business Data Verification Checklist
+☐ Final regular hours and holiday-hours process
+☐ Current Google rating and live review count
+☐ Verified founding year and distinction between years in business and years of experience
+☐ Correct public email address and whether to use a branded domain email
+☐ Preferred booking URL and booking platform behavior
+☐ Official Google review and directions links
+☐ Final service names
+☐ Final service durations
+☐ Final starting prices and condition/vehicle-size pricing rules
+☐ Ceramic coating products, package names, longevity, warranty, and price presentation
+☐ Paint correction levels and verified starting price
+☐ Window-tinting services and compliance claims
+☐ Cancellation and rescheduling policy
+☐ Any certifications, licenses, insurance, affiliations, or warranties to display
+☐ Photo permissions and reviewer attribution rules
+☐ Legal/privacy/consent language for forms and text communication
+14. Source Notes and Audit Limitations
+Public sources reviewed
+Source Group
+Use in Analysis
+Advanced Auto Spa
+Homepage, detailing hub, hand wash, ceramic coating, gallery, videos, windshield pages, maintenance detail
+Google Search Central
+Duplicate URL consolidation, redirects, LocalBusiness structured data, structured-data guidelines
+Google Business Profile Help
+Local ranking factors and profile optimization principles
+W3C Web Accessibility Initiative
+WCAG 2.2 AA text alternatives, contrast, focus, forms, keyboard, and conformance guidance
+Competitor sites
+Top Tier Auto Spa, CC Cleaning & Detailing, and Zulu Mobile Detailing
+Public listings
+BBB, Waze, Nextdoor, social profiles, and directory search results
+Audit limitations
+This package is based on public-facing review and does not include private access to Google Search Console, GA4, Google Business Profile dashboard, Wix administration, backlink tools, booking records, call tracking, customer revenue data, or full manual assistive-technology testing. Exact rankings, conversion rates, Core Web Vitals, schema status, crawl coverage, and local-pack performance must be confirmed in those systems.
+Final recommendation
+Build the redesign around the approved Precision Studio mockup, but treat the project as a combined SEO migration, local-entity cleanup, accessibility rebuild, and conversion redesign—not merely a cosmetic homepage refresh.

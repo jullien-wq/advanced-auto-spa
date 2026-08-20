@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#fff;font-family:Inter,sans-serif}a{color:#0D0F10}a:hover{color:#E31B23}</style>
+</helmet>
+<div data-screen-label="Ceramic Coating" style="font-family:Inter,sans-serif;color:#191C1E">
+  <dc-import name="Nav" hint-size="100%,105px"></dc-import>
+  <main>
+    <section style="background:#0D0F10;color:#F4F3EF">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,84px) 24px">
+        <nav aria-label="Breadcrumb" style="font-size:13px;color:#8B9093;margin-bottom:18px"><a href="Home.dc.html" style="color:#AEB3B7;text-decoration:none">Home</a> <span aria-hidden="true">/</span> <a href="Services.dc.html" style="color:#AEB3B7;text-decoration:none">Services</a> <span aria-hidden="true">/</span> <span style="color:#fff">Ceramic Coating</span></nav>
+        <p style="margin:0 0 12px;font:700 12px Manrope,sans-serif;letter-spacing:.22em;color:#E31B23">PROTECT · CONSULTATION-FIRST</p>
+        <h1 style="margin:0 0 16px;font:800 clamp(30px,4.4vw,52px)/1.1 Manrope,sans-serif;text-transform:uppercase;color:#fff;max-width:20ch">Ceramic Coating in Manalapan, NJ</h1>
+        <p style="margin:0 0 28px;font-size:16px;line-height:1.7;color:#AEB3B7;max-width:58ch">Shield your paint, deepen gloss, and make every wash easier. Because results depend on your paint's condition, every coating starts with an in-studio assessment — never a one-size-fits-all package.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+          <a href="Contact.dc.html#book" style="background:#E31B23;color:#fff;text-decoration:none;font:700 13px Inter,sans-serif;letter-spacing:.08em;padding:15px 30px" style-hover="background:#C4121A;color:#fff">REQUEST A COATING ASSESSMENT</a>
+          <span style="font-size:13.5px;color:#8B9093">◔ Approx. 16 hours including curing · Pricing after assessment</span>
+        </div>
+      </div>
+    </section>
+    <section style="background:#fff;border-bottom:1px solid #EDEDEA">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,72px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px">
+        <div>
+          <h2 style="margin:0 0 14px;font:800 22px Manrope,sans-serif;text-transform:uppercase">Who it's for</h2>
+          <ul style="margin:0;padding-left:18px;font-size:14.5px;line-height:1.9;color:#4A4F53">
+            <li>New vehicles you want to keep looking new</li>
+            <li>Freshly corrected paint you want to lock in</li>
+            <li>Daily drivers that need easier washing and stronger chemical resistance</li>
+            <li>Owners protecting resale value over years, not months</li>
+          </ul>
+        </div>
+        <div>
+          <h2 style="margin:0 0 14px;font:800 22px Manrope,sans-serif;text-transform:uppercase">What changes pricing</h2>
+          <ul style="margin:0;padding-left:18px;font-size:14.5px;line-height:1.9;color:#4A4F53">
+            <li>Paint condition — how much correction is needed before coating</li>
+            <li>Vehicle size and panel count</li>
+            <li>Coverage: paint only, or adding glass, trim, wheels, interior</li>
+            <li>Coating tier selected at the assessment</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section style="background:#F4F3EF">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,72px) 24px">
+        <h2 style="margin:0 0 8px;font:800 clamp(22px,3vw,32px) Manrope,sans-serif;text-transform:uppercase">Coating levels</h2>
+        <p style="margin:0 0 30px;font-size:13px;color:#8A5200;background:#FFF6E8;border:1px dashed #C77700;padding:8px 12px;display:inline-block;display:none" data-verify-hidden="true">Package names, coating brands, durability terms, and pricing must be confirmed by the client before publishing. No longevity or warranty claims are made below.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px">
+          <sc-for list="{{ tiers }}" as="t" hint-placeholder-count="3">
+            <article style="background:#fff;border:1px solid #D8D8D4;padding:26px;display:flex;flex-direction:column;gap:12px">
+              <p style="margin:0;font:700 11px Inter,sans-serif;letter-spacing:.16em;color:#8B9093">{{ t.tag }}</p>
+              <h3 style="margin:0;font:800 19px Manrope,sans-serif">{{ t.name }} <span style="display:inline-flex;vertical-align:middle;padding:1px 6px;border:1px dashed #C77700;background:#FFF6E8;color:#8A5200;font:600 9px/1.7 Inter,sans-serif;letter-spacing:.08em;border-radius:3px;display:none" data-verify-hidden="true">VERIFY</span></h3>
+              <p style="margin:0;font-size:14px;line-height:1.65;color:#4A4F53;flex:1">{{ t.desc }}</p>
+              <p style="margin:0;font:700 14px Inter,sans-serif;color:#E31B23">{{ t.price }}</p>
+            </article>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+    <section style="background:#0D0F10;color:#F4F3EF">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,72px) 24px">
+        <h2 style="margin:0 0 36px;font:800 clamp(22px,3vw,32px) Manrope,sans-serif;text-transform:uppercase;color:#fff">The process</h2>
+        <ol style="margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px">
+          <sc-for list="{{ process }}" as="p" hint-placeholder-count="5">
+            <li style="border-top:2px solid #E31B23;padding-top:16px">
+              <p style="margin:0 0 6px;font:800 13px Manrope,sans-serif;color:#8B9093">{{ p.n }}</p>
+              <p style="margin:0 0 8px;font:800 15.5px Manrope,sans-serif;color:#fff">{{ p.t }}</p>
+              <p style="margin:0;font-size:13.5px;line-height:1.6;color:#AEB3B7">{{ p.d }}</p>
+            </li>
+          </sc-for>
+        </ol>
+        <p style="margin:36px 0 0;font-size:14.5px;line-height:1.7;color:#AEB3B7;max-width:70ch;border-left:2px solid #E31B23;padding-left:18px">Why correction comes first: a coating locks in whatever is underneath it. Coating over swirls preserves swirls. The assessment determines whether your paint needs a polish or multi-stage correction before coating — see <a href="Services.dc.html#paint-correction" style="color:#fff">Paint Correction</a>.</p>
+      </div>
+    </section>
+    <section style="background:#fff">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,72px) 24px">
+        <h2 style="margin:0 0 26px;font:800 clamp(22px,3vw,32px) Manrope,sans-serif;text-transform:uppercase">Proof of work</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">
+          <img src="https://static.wixstatic.com/media/2eb3ab_b4343158e0ad462daf11d4af3ebe7197~mv2.png/v1/fill/w_700,h_525,al_c,q_85/2eb3ab_b4343158e0ad462daf11d4af3ebe7197~mv2.png" alt="Rear view of a white Porsche after detailing at Advanced Auto Spa" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid #D8D8D4">
+          <img src="https://static.wixstatic.com/media/2eb3ab_be62975fbada43db8108f01356e43c84~mv2.jpg/v1/fill/w_700,h_525,al_c,q_85/2eb3ab_be62975fbada43db8108f01356e43c84~mv2.jpg" alt="Gloved hand holding a ceramic coating bottle in the studio" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid #D8D8D4">
+          <img src="https://static.wixstatic.com/media/2eb3ab_8adf091ee57848f3b1c2fec4d1efc6f4~mv2.png/v1/fill/w_700,h_525,al_c,q_85/2eb3ab_8adf091ee57848f3b1c2fec4d1efc6f4~mv2.png" alt="Applying ceramic wheel coating to a wheel" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid #D8D8D4">
+        </div>
+        <div style="margin-top:34px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px">
+          <blockquote style="margin:0;background:#F4F3EF;border:1px solid #D8D8D4;padding:22px"><span style="color:#FBBC05;letter-spacing:2px;font-size:13px" aria-hidden="true">★★★★★</span><p style="margin:10px 0;font-size:14px;line-height:1.65;color:#4A4F53;font-style:italic">"Verbatim ceramic-coating Google review excerpt goes here."</p><footer style="font-size:12.5px;color:#6B7075"><strong style="color:#191C1E">[Reviewer A.]</strong> · Ceramic Coating · Google</footer></blockquote>
+          <blockquote style="margin:0;background:#F4F3EF;border:1px solid #D8D8D4;padding:22px"><span style="color:#FBBC05;letter-spacing:2px;font-size:13px" aria-hidden="true">★★★★★</span><p style="margin:10px 0;font-size:14px;line-height:1.65;color:#4A4F53;font-style:italic">"Verbatim ceramic-coating Google review excerpt goes here."</p><footer style="font-size:12.5px;color:#6B7075"><strong style="color:#191C1E">[Reviewer B.]</strong> · Ceramic Coating · Google</footer></blockquote>
+        </div>
+      </div>
+    </section>
+    <section style="background:#F4F3EF">
+      <div style="max-width:860px;margin:0 auto;padding:clamp(48px,6vw,72px) 24px">
+        <h2 style="margin:0 0 30px;font:800 clamp(22px,3vw,32px) Manrope,sans-serif;text-transform:uppercase;text-align:center">Coating questions</h2>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
+            <details style="background:#fff;border:1px solid #D8D8D4;padding:0 20px">
+              <summary style="cursor:pointer;font:700 15px Inter,sans-serif;padding:16px 0">{{ f.q }}</summary>
+              <p style="margin:0;padding:0 0 18px;font-size:14.5px;line-height:1.7;color:#4A4F53">{{ f.a }}</p>
+            </details>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+    <section style="background:#0D0F10;color:#F4F3EF;text-align:center">
+      <div style="max-width:720px;margin:0 auto;padding:clamp(48px,6vw,76px) 24px">
+        <h2 style="margin:0 0 12px;font:800 clamp(24px,3vw,36px) Manrope,sans-serif;text-transform:uppercase;color:#fff">Start with an assessment</h2>
+        <p style="margin:0 0 26px;color:#AEB3B7;font-size:15px;line-height:1.7">Performed at the studio — 221 Park Avenue, Manalapan, NJ. No obligation; you'll get an honest read on what your paint needs.</p>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px">
+          <a href="Contact.dc.html#book" style="background:#E31B23;color:#fff;text-decoration:none;font:700 13px Inter,sans-serif;letter-spacing:.08em;padding:15px 30px" style-hover="background:#C4121A;color:#fff">REQUEST A COATING ASSESSMENT</a>
+          <a href="tel:+17324411400" style="border:1px solid #8B9093;color:#fff;text-decoration:none;font:700 13px Inter,sans-serif;letter-spacing:.08em;padding:15px 30px" style-hover="border-color:#fff;color:#fff">CALL (732) 441-1400</a>
+        </div>
+        <p style="margin:28px 0 0;font-size:13px;color:#6B7075">Related: <a href="Services.dc.html#paint-correction" style="color:#AEB3B7">Paint Correction</a> · <a href="Services.dc.html#glass-trim-interior" style="color:#AEB3B7">Glass, Trim &amp; Interior Coating</a> · <a href="Services.dc.html#hand-wash" style="color:#AEB3B7">Maintenance Hand Wash</a></p>
+      </div>
+    </section>
+  </main>
+  <dc-import name="Footer" hint-size="100%,420px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      tiers: [
+        { tag: 'LEVEL 1', name: 'Essential Coating', desc: 'Single-layer paint coating after wash, decontamination, and light polish. For newer vehicles in good condition.', price: 'Pricing after assessment' },
+        { tag: 'LEVEL 2', name: 'Enhanced Coating', desc: 'Paint coating after single-stage correction, plus coated wheels faces and glass. The most common recommendation.', price: 'Pricing after assessment' },
+        { tag: 'LEVEL 3', name: 'Complete Protection', desc: 'Multi-stage correction followed by coating of paint, glass, trim, and wheels for maximum coverage.', price: 'Pricing after assessment' }
+      ],
+      process: [
+        { n: 'STEP 1', t: 'Assessment', d: 'Paint inspection under studio lighting; you approve the plan and quote.' },
+        { n: 'STEP 2', t: 'Decontamination', d: 'Hand wash, iron removal, and clay treatment strip bonded contamination.' },
+        { n: 'STEP 3', t: 'Correction', d: 'The agreed level of machine polishing removes defects before anything is locked in.' },
+        { n: 'STEP 4', t: 'Application & Cure', d: 'Coating applied panel by panel in a dust-controlled space, then cured.' },
+        { n: 'STEP 5', t: 'Handoff & Care', d: 'Final inspection with you, plus written aftercare guidance.' }
+      ],
+      faqs: [
+        { q: 'How long does a ceramic coating last?', a: 'Durability depends on the product tier, preparation, and how the vehicle is washed and stored. Specific longevity and warranty terms will be published only after the client confirms the coating products used.' },
+        { q: 'Do I need paint correction first?', a: 'Usually some level of polishing, yes. The coating preserves whatever finish is underneath it, so defects must be corrected first. The assessment tells you exactly how much your paint needs.' },
+        { q: 'How should I wash a coated car?', a: 'Hand wash with pH-neutral soap, or book maintenance washes at the studio. Avoid automatic brush car washes, which can mar the coating.' },
+        { q: 'Can you coat glass, trim, or the interior?', a: 'Yes — glass, trim, and interior ceramic coatings are available from $99.95† as standalone services or add-ons.' },
+        { q: 'How long is the vehicle in the studio?', a: 'Plan on roughly 16 hours including curing — typically an overnight stay. Exact timing is confirmed at the assessment.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
