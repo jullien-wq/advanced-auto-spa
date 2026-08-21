@@ -1,3 +1,68 @@
-# Redirect rules. Format: [source] [destination] [status]
-# The site nav links to Home.html, but that file is now index.html.
-/Home.html / 301
+# Advanced Auto Spa - redirect rules
+# Format: [source] [destination] [status]
+#
+# Built from the live www.advancedautospa.com sitemaps (25 URLs, Aug 2026)
+# cross-referenced against redirect-map.md. All rules are 301 (permanent),
+# per the brief: "301s (not 302s)".
+#
+# Rules are evaluated top-down, so specific rules come before wildcards.
+
+# ---------------------------------------------------------------------
+# 1. Internal fix - the nav links to Home.html, file is now index.html
+# ---------------------------------------------------------------------
+/Home.html                                            /                                301
+
+# ---------------------------------------------------------------------
+# 2. Legacy top-level pages (pages-sitemap.xml)
+# ---------------------------------------------------------------------
+/detailing                                            /Services                        301
+/hand-wash                                            /Services#hand-wash-packages     301
+/ceramic-coating                                      /Ceramic-Coating                 301
+/gallery                                              /Results                         301
+/videos                                               /Results                         301
+
+# DECISION NEEDED - no equivalent page exists in the new build.
+# Sent to /Contact so they never 404. Change once you decide.
+/gift-card                                            /Contact                         301
+/payment-request-page                                 /Contact                         301
+
+# ---------------------------------------------------------------------
+# 3. Booking service pages (17 URLs, booking-services-sitemap.xml)
+#    Two have real destination pages; the rest land on Services anchors.
+# ---------------------------------------------------------------------
+/service-page/ceramic-coating                         /Ceramic-Coating                 301
+/service-page/interior-detail                         /Interior-Detail                 301
+/service-page/silver-package-hand-wash                /Services#hand-wash-packages     301
+/service-page/gold-package-hand-wash                  /Services#hand-wash-packages     301
+/service-page/platinum-hand-wash                      /Services#hand-wash-packages     301
+/service-page/exterior-hand-wash-basic                /Services#hand-wash-packages     301
+/service-page/exterior-hand-wash-plus                 /Services#hand-wash-packages     301
+/service-page/maintenance-detail                      /Services#maintenance-detail     301
+/service-page/exterior-detail                         /Services#exterior-detail        301
+/service-page/engine-detailing                        /Services#engine-detailing       301
+/service-page/full-detail                             /Services#full-detail            301
+/service-page/interior-odor-elimination               /Services#odor-elimination       301
+/service-page/paint-correction                        /Services#paint-correction       301
+/service-page/headlight-restoration                   /Services#headlight-restoration  301
+/service-page/windshield-rock-chip-repair             /Services#rock-chip-repair       301
+/service-page/glass-trim-or-interior-ceramic-coating  /Services#glass-trim-interior    301
+/service-page/automotive-window-tinting               /Services#window-tinting         301
+
+# ---------------------------------------------------------------------
+# 4. Named in redirect-map.md but absent from the current sitemap
+#    (kept as safety nets for old inbound links)
+# ---------------------------------------------------------------------
+/windshield-repair                                    /Services#rock-chip-repair       301
+/booking-calendar/*                                   /Contact                         301
+/service-page/*                                       /Services                        301
+
+# ---------------------------------------------------------------------
+# 5. Lowercase aliases - static asset paths are case-sensitive
+# ---------------------------------------------------------------------
+/home                                                 /                                301
+/about                                                /About                           301
+/services                                             /Services                        301
+/results                                              /Results                         301
+/reviews                                              /Reviews                         301
+/contact                                              /Contact                         301
+/interior-detail                                      /Interior-Detail                 301
