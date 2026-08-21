@@ -1,0 +1,3 @@
+# Redirect rules. Format: [source] [destination] [status]
+# The site nav links to Home.html, but that file is now index.html.
+/Home.html / 301
