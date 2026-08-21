@@ -1,0 +1,22 @@
+# Files here are in the repo but must NOT be published to the live site.
+# Same syntax as .gitignore.
+
+# Repo / OS internals
+.git
+.gitattributes
+.gitignore
+.DS_Store
+.thumbnail
+node_modules
+.wrangler
+
+# Cloudflare config (not site content)
+wrangler.jsonc
+.assetsignore
+
+# Source material and working notes
+uploads/
+About.dc.html
+brief_extracted.txt
+redirect-map.md
+verification-checklist.md
